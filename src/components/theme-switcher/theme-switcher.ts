@@ -59,7 +59,7 @@ export class ThemeSwitcher extends LitElement {
 		document.querySelector('#home-hero-image');
 
 	@property({ type: String })
-	theme: string = 'default';
+	theme: string = 'dark';
 
 	private _getCurrentTheme() {
 		// check for a local storage theme first
@@ -104,8 +104,8 @@ export class ThemeSwitcher extends LitElement {
 			<div class="theme-switcher__container">
 				<div class="theme-select__container">
 					<button
-						@click=${() => this._setTheme('default')}
-						?active=${this.theme === 'default'}
+						@click=${() => this._setTheme('dark')}
+						?active=${this.theme === 'darkt'}
 					>
 						${classicThemeIcon}
 					</button>

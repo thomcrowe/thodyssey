@@ -1,0 +1,53 @@
+---
+import { TextSection } from '@odyssey-theme/components';
+import Layout from '../../layouts/Page.astro';
+import HeroSection from '../../components/sections/heros/HeroSection.astro';
+
+const seo = {
+	title: 'Thom Crowe | Lackluster Husband, above-average dad, unworthy deacon, growth guy',
+	description: 'About Page',
+};
+---
+
+<Layout {seo}>
+	<HeroSection>
+		<div slot="text-container">
+			<h1>About Me</h1>
+			<p>
+				I’m Thom. A little about me, I was ordained a deacon in the Orthodox Church before joining the Anglican tradition, work in tech marketing marketing, am a dad to a sweet little girl and husband to a great wife who runs the Made Shop. I’m an avid reader, beer aficionado, lover of theology and history, and aspiring coffee snob. We have a pretty happy life here Tulsa, OK.
+
+
+			</p>
+		</div>
+    <picture slot="image-container">
+      <img
+        src="/assets/images/home/crowefamily.jpg"
+        alt="Astro Odyssee"
+        id="home-hero-image"
+      />
+    </picture>
+	</HeroSection>
+  <TextSection narrow>
+    <p>
+      Still reading? Well, here are some other random tidbits:
+    </p>
+    <p><ul>
+      <li>My favorite bands are Jimmy Eat World & The Cure</li>
+      <li>I love fantasy books and movies (I’m kinda obsessed with the Lord of the Rings Trilogy, the Wizarding World of Harry Potter and Westeros)</li>
+      <li>If I lived in one of those fantasy worlds, I would be a human (TLOR), live in Ravenclaw (HP), and be a Baratheon (ASOIF)</li>
+      <li>My three favorite books are: The Brothers Karamazov by Fyodor Dostoevsky, Infinite Jest by David Foster Wallace & The Cat’s Cradle by Kurt Vonnegut</li>
+      <li>I’m one of the only people I know who loves Mr. Pibb</li>
+      <li>I have an unhealthy obsession with Christmas</li>
+      <li>I absolutely love to cook</li>
+      <li>I have studied English, Political Science & Theology in college/post-grad</li>
+      <li>I have seen every episode of The Simpsons and Family Guy at least once</li>
+      <li>I can recite most of Monty Python’s Quest for the Holy Grail</li>
+      <li>My favorite dinosaur is the Triceratops</li>
+      <li>I love Middle Eastern and Indian food</li>
+      </ul></p>
+    
+    <p>
+      Want to know anything else? Just ask. <a href="mailto:thom@thomcrowe.com">thom[at]thomcrowe.comt</a>
+    </p>
+  </TextSection>
+</Layout>
