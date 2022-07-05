@@ -3,19 +3,15 @@ import { twitterIcon, youtubeIcon, githubIcon, instagramIcon } from "../icons/ic
 
 export const footerSocials = [
   {
-    url: 'https://instagram.com/',
+    url: 'https://instagram.com/thomcrowe',
     icon: instagramIcon,
   },
   {
-    url: 'https://youtube.com/',
-    icon: youtubeIcon,
-  },
-  {
-    url: 'https://twitter.com/littlesticksdev',
+    url: 'https://twitter.com/thomcrowe',
     icon: twitterIcon,
   },
   {
-    url: 'https://github.com/littlesticksdev/odyssey-theme',
+    url: 'https://github.com/thomcrowe',
     icon: githubIcon,
   },
 ]
