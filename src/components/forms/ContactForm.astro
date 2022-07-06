@@ -9,12 +9,17 @@ const selectOptions = [
 
 ---
 
-<form name="Contact Form" method="POST" action="/contact-thank-you" data-netlify="true">
-  <FormInput type="text" label="Name" name="Name" placeholder="John Doe" />
-  <FormInput type="email" label="Email" name="Email" placeholder="hello@example.com" />
-  <FormSelect label="How Did You Hear About Us?" options={selectOptions} />
-  <FormTextarea label="Message" name="Message" placeholder="Your message here..." />
-  <Button>Submit</Button>
+<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xayvgebk" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="name">Name</label>
+    <p><input type="text" name="name" id="full-name" placeholder="Buddy the Elf" required=""></p>
+    <p><label for="email-address">Email Address</label></p>
+    <input type="email" name="_replyto" id="email-address" placeholder="buddy@santasworkshop.com" required=""></p>
+    <p><label for="message">Message</label></p>
+    <p> <textarea rows="5" name="message" id="message" placeholder="I thought maybe we could make gingerbread houses, and eat cookie dough, and go ice skating, and - maybe even hold hands." required=""></textarea></p>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+  </fieldset>
+  <input type="submit" value="Submit">
 </form>
 
 <style>
