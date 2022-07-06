@@ -17,21 +17,9 @@ export const footerSocials = [
 ]
 
 export const footerLists = [
+
 	{
-		title: 'Landing Pages',
-		items: [
-			{
-				title: 'Landing Page 1',
-				slug: '/landing-pages/landing-1',
-			},
-			{
-				title: 'Landing Page 2',
-				slug: '/landing-pages/landing-2',
-			},
-		],
-	},
-	{
-		title: 'Company',
+		title: 'Stuff from Thom',
 		items: [
 			{
 				title: 'About',
@@ -43,20 +31,24 @@ export const footerLists = [
 			},
 			{
 				title: 'Contact',
-				slug: '/company/contact',
+				slug: '/contact',
 			},
 		],
 	},
 	{
-		title: 'Theme',
+		title: 'Links',
 		items: [
 			{
-				title: 'Get Started',
-				slug: '/theme/get-started',
+				title: 'Tis the Podcast',
+				slug: 'https://linktr.ee/tisthepodcast',
 			},
 			{
-				title: 'Style Guide',
-				slug: '/theme/style-guide',
+				title: 'Once Every Two Weeks',
+				slug: 'https://onceeverytwoweeks.com/',
+			},
+			{
+				title: 'Anglo-Orthodox',
+				slug: 'https://angloorthodox.com/',
 			},
 		],
 	},

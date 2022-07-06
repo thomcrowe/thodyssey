@@ -1,7 +1,7 @@
 export default {
-	title: `Odyssey Astro Theme | A Marketing Website Theme for Startups and Businesses`,
-	description: `A simple, clean, and modern theme for a startup or businesses' marketing website.`,
-	url: `https://odyssey-theme.littlesticks.dev`, // No trailing slash!
-	name: `Odyssey`, // The short name of the business or brand name. Used for things like the copyright in the footer.
+	title: `Thom Crowe | Run-of-the-mill elder millennial`,
+	description: `Ramblings, ponderings, and random musings..`,
+	url: `https://thomcrowe.com`, // No trailing slash!
+	name: `Thom Crowe`, // The short name of the business or brand name. Used for things like the copyright in the footer.
   enableThemeSwitcher: false,
 };
